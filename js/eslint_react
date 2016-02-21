@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "extends": [
+        "./eslint_language",
+        "plugin:react/recommended"
+    ]
+}
