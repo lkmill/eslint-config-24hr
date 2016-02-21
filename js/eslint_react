@@ -9,6 +9,6 @@
     },
     "extends": [
         "./eslint_language",
-        "plugin:react/recommended"
+        "./lib/react-recommended.js"
     ]
 }
