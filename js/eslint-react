@@ -9,6 +9,7 @@
     },
     "extends": [
         "./eslint-language",
+        "./eslint-formatting",
         "./lib/react-recommended.js"
     ]
 }
