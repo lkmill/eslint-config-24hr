@@ -1,0 +1,11 @@
+{
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "extends": [
+        "./eslint-language",
+        "./eslint-formatting"
+    ]
+}
