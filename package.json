@@ -1,82 +1,39 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "eslint-24hr@^1.0.5",
-        "scope": null,
-        "escapedName": "eslint-24hr",
-        "name": "eslint-24hr",
-        "rawSpec": "^1.0.5",
-        "spec": ">=1.0.5 <2.0.0",
-        "type": "range"
-      },
-      "/Users/camilo/Projects/flowtest"
-    ]
+  "name": "eslint-24hr",
+  "version": "1.1.0",
+  "description": "Eslint for 24HR Malmo",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24hr-malmo/eslint-24hr.git"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "24hr"
   ],
-  "_from": "eslint-24hr@>=1.0.5 <2.0.0",
-  "_id": "eslint-24hr@1.0.5",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/eslint-24hr",
-  "_nodeVersion": "4.2.2",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/eslint-24hr-1.0.5.tgz_1456906459659_0.7692224201746285"
-  },
-  "_npmUser": {
-    "name": "faddi",
-    "email": "faddi.idris@gmail.com"
-  },
-  "_npmVersion": "3.7.5",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "eslint-24hr@^1.0.5",
-    "scope": null,
-    "escapedName": "eslint-24hr",
-    "name": "eslint-24hr",
-    "rawSpec": "^1.0.5",
-    "spec": ">=1.0.5 <2.0.0",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/eslint-24hr/-/eslint-24hr-1.0.5.tgz",
-  "_shasum": "8c63b3f66270352287f746018696583581a678b4",
-  "_shrinkwrap": null,
-  "_spec": "eslint-24hr@^1.0.5",
-  "_where": "/Users/camilo/Projects/flowtest",
-  "author": "",
   "dependencies": {
     "babel-eslint": "6.1.2",
     "eslint": "3.3.1",
     "eslint-plugin-flowtype": "2.11.4",
     "eslint-plugin-react": "4.0.0"
   },
-  "description": "",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "8c63b3f66270352287f746018696583581a678b4",
-    "tarball": "http://registry.npmjs.org/eslint-24hr/-/eslint-24hr-1.0.5.tgz"
-  },
-  "license": "ISC",
-  "main": "index.js",
-  "maintainers": [
+  "author": "Faddi Idris <faddi.idris@gmail.com>",
+  "contributors": [
     {
-      "name": "camme",
-      "email": "camilo.tapia@gmail.com"
-    },
-    {
-      "name": "faddi",
-      "email": "faddi.idris@gmail.com"
+      "name" : "Camilo Tapia",
+      "email" : "camilo.tapia@gmail.com",
+      "url" : "https://1001.io"
     }
   ],
-  "name": "eslint-24hr",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/24hr-malmo/eslint-24hr/issues"
   },
-  "version": "1.0.5"
+  "homepage": "https://github.com/24hr-malmo/eslint-24hr#readme"
 }
