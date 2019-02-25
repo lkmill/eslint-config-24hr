@@ -1,15 +1,16 @@
 {
-  "name": "eslint-24hr",
-  "version": "1.1.0",
+  "name": "eslint-config-24hr",
+  "version": "0.0.1",
   "description": "Eslint for 24HR Malmo",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/24hr-malmo/eslint-24hr.git"
+    "url": "git+https://github.com/24hr-malmo/eslint-config-24hr.git"
   },
   "keywords": [
     "eslint",
@@ -17,22 +18,24 @@
     "24hr"
   ],
   "dependencies": {
-    "babel-eslint": "6.1.2",
-    "eslint": "3.3.1",
-    "eslint-plugin-flowtype": "2.11.4",
-    "eslint-plugin-react": "4.0.0"
+    "eslint": "5.14.1"
   },
   "author": "Faddi Idris <faddi.idris@gmail.com>",
   "contributors": [
     {
-      "name" : "Camilo Tapia",
-      "email" : "camilo.tapia@gmail.com",
-      "url" : "https://1001.io"
+      "name": "Camilo Tapia",
+      "email": "camilo.tapia@gmail.com",
+      "url": "https://1001.io"
+    },
+    {
+      "name": "Linus Miller",
+      "email": "lohfu@lohfu.io",
+      "url": "https://lohfu.io"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/24hr-malmo/eslint-24hr/issues"
+    "url": "https://github.com/24hr-malmo/eslint-config-24hr/issues"
   },
-  "homepage": "https://github.com/24hr-malmo/eslint-24hr#readme"
+  "homepage": "https://github.com/24hr-malmo/eslint-config-24hr#readme"
 }
