@@ -56,6 +56,11 @@ module.exports = {
         'semi-spacing': [2, { 'before': false, 'after': true }],
         'semi': [2, 'always'],
         // "sort-vars": [2],
+        'space-before-function-paren': [2, {
+            'anonymous': 'always',
+            'named': 'never',
+            'asyncArrow': 'always'
+        }],
         'keyword-spacing': [2, {'before': true, 'after': true, 'overrides': {}}],
         'spaced-comment': [2, 'always', { 'markers': ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!', ','] }],
         'wrap-iife': [2, 'any'],
