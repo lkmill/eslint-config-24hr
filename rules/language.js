@@ -1,4 +1,6 @@
-{
+'use strict';
+
+module.exports = {
     "rules" : {
         "accessor-pairs": 2,
         "array-callback-return": 2,
@@ -67,13 +69,4 @@
         "wrap-iife": 2,
         "yoda": 2,
     },
-    "env": {
-        "node": true,
-        "es6" : true
-    },
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module",
-    },
-    extends: ["eslint:recommended"]
 }

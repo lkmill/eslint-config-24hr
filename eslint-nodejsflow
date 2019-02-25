@@ -1,6 +1,0 @@
-{
-    "extends": [
-        "./eslint-nodejs",
-        "./esling-flow"
-    ]
-}
