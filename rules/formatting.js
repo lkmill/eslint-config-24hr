@@ -6,6 +6,7 @@ module.exports = {
         'block-spacing': [2, 'always'],
         'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
         'camelcase': [2],
+        'comma-dangle': [2, 'always-multiline'],
         'comma-spacing': [2],
         'comma-style': [2],
         'computed-property-spacing': [2, 'never'],
@@ -59,7 +60,7 @@ module.exports = {
         'space-before-function-paren': [2, {
             'anonymous': 'always',
             'named': 'never',
-            'asyncArrow': 'always'
+            'asyncArrow': 'always',
         }],
         'keyword-spacing': [2, {'before': true, 'after': true, 'overrides': {}}],
         'spaced-comment': [2, 'always', { 'markers': ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!', ','] }],
