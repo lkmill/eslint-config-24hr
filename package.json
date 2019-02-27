@@ -17,7 +17,7 @@
     "lint",
     "24hr"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "eslint": "5.14.1"
   },
   "author": "Faddi Idris <faddi.idris@gmail.com>",
